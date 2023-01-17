@@ -2,5 +2,6 @@
 
 public abstract class Window : Frame //, Event
 {
-    public void postEvent(Event);
-    public abstract void processEvent(Event);
+    public void postEvent(Event ev) { }
+    public abstract void processEvent(Event ev);
+}
