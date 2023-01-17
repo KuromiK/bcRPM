@@ -2,11 +2,8 @@
 {
     public class MenuBar
     {
-        Menultem? Menultem;
-        public MenuBar(Menultem men)
-        {
-            Menultem = men;
-        }
+        List<Menultem> menultem = new List<Menultem>();
+        public MenuBar(Menultem men) { }
 
         public Frame? Frame { get; set; }
     }
