@@ -1,6 +1,6 @@
 ﻿namespace WinFormsLibrary1;
 
-public abstract class Frame : MenuContainer
+public abstract class Frame : Window, MenuContainer
 {
     public MenuBar? menuBar;
     public String? setTitle;
